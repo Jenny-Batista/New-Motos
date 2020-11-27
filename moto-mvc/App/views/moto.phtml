@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit-no">
+
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+
+    <title>Motos</title>
+</head>
+<body>
+   <h1>Quais as marcas mais famosas</h1>
+
+    <div class="container">
+        <?php foreach($id_moto as $moto_marca) { ?>
+            <?php echo $moto_marca['nome_marca']; ?>
+            <?php } ?>
+    
+</body>
+</html>
